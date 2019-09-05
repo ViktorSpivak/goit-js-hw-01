@@ -1,3 +1,4 @@
+'use strict';
 let userChoice = prompt("Введите страну доставки");
 let deliveryCountry;
 let cost;
@@ -38,7 +39,7 @@ if (userChoice) {
       console.log("В вашей стране доставка не доступна");
       deliveryCountry = false;
   }
-  if (deliveryCountry != false) {
+  if (deliveryCountry !== false) {
     console.log(`Доставка в ${deliveryCountry} будет стоить ${cost} кредитов`);
   }
 } else {

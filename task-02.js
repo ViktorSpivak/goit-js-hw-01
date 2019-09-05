@@ -1,3 +1,4 @@
+'use strict';
 const total = 100;
 let ordered = prompt("Введите заказ");
 if (ordered > total) {

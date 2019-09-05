@@ -1,3 +1,4 @@
+'use strict';
 let credits = 23580;
 let creditsBalance;
 const pricePerDroid = 3000;
